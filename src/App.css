@@ -1,0 +1,38 @@
+.card img {
+  height: auto;
+  width: 100%;
+  min-height: 500px;
+  max-height: 500px;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+
+.card-title {
+  min-height: 50px;
+}
+
+.loader{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background: black;
+  color: aliceblue;
+  
+}
+.hero{
+  background:no-repeat center center/ cover;
+  height: auto;
+  width: 100%;
+}
+
+.hero-text{
+  z-index: 2;
+  color: white;
+
+}
+
